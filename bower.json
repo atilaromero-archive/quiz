@@ -1,0 +1,17 @@
+{
+  "name": "quiz",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "atilaromero@gmail.com"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

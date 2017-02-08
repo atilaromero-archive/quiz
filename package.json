@@ -1,0 +1,15 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "browser-sync start --server --ss public --files 'public/*.html' ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "atilaromero@gmail.com",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "browser-sync": "^2.18.7"
+  }
+}
