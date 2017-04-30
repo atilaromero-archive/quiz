@@ -1,15 +1,25 @@
 {
   "name": "quiz",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "watch": "browser-sync start --server --ss public --files 'public/*.html' ",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && swagger project test"
   },
+  "keywords": [],
   "author": "atilaromero@gmail.com",
   "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.12.3",
+    "swagger-express-mw": "^0.1.0"
+  },
   "devDependencies": {
-    "browser-sync": "^2.18.7"
+    "browser-sync": "^2.18.7",
+    "should": "^7.1.0",
+    "standard": "^10.0.2",
+    "supertest": "^1.0.0",
+    "swagger": "^0.7.5"
   }
 }
